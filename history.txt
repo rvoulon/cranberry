@@ -1,0 +1,500 @@
+   40  cd Pods
+   41  l
+   42  cd ..
+   43  l
+   44  cd Pods/
+   45  l
+   46  cd Target\ Support\ Files/
+   47  l
+   48  cd Pods-Shvak/
+   49  l
+   50  cd ..
+   51  l
+   52  cd ..
+   53  l
+   54  cd ..
+   55  l
+   56  rm Podfile.l
+   57  rm Podfile.lock 
+   58  rm -rf Pods/
+   59  rm Shvak.xcworkspace/
+   60  rm -rf Shvak.xcworkspace/
+   61  l
+   62  pod install
+   63  l
+   64  cd "/Users/toyb0_x/Developer/Xcode/Projects/5. Shvak/FromSabrina/shvak/Pods/Target Support Files/Pods-Shvak/"
+   65  l
+   66  cd Pods/
+   67  l
+   68  cd Target\ Support\ Files/
+   69  cd Pods-Shvak/
+   70  l
+   71  cd ..
+   72  cd ..
+   73  cd ..
+   74  l
+   75  rm Podfile.lock 
+   76  rm -rf Pods/
+   77  rm -rf Shvak.xcworkspace/
+   78  l
+   79  pod install
+   80  l
+   81  cd Pods/
+   82  l
+   83  cd Headers/
+   84  l
+   85  cd Public/
+   86  l
+   87  cd Firebase
+   88  l
+   89  cd ..
+   90  l
+   91  cd ll
+   92  cd ..
+   93  cd ..
+   94  l
+   95  cd Target\ Support\ Files/
+   96  l
+   97  cd Pods-Shvak/
+   98  l
+   99  subl Pods-Shvak.release.xcconfig 
+  100  cd ..
+  101  cd ..
+  102  cd ..
+  103  l
+  104  rm -rf Pods/
+  105  rm -rf Shvak.xcworkspace/
+  106  rm Podfile.lock 
+  107  l
+  108  pod install
+  109  pod repo update
+  110  pod install
+  111  rm -rf Pods/
+  112  rm Podfile.lock 
+  113  rm -rf Shvak.xcworkspace/
+  114  pod repo update
+  115  pod install
+  116  cd /Users/toyb0_x/Developer/Xcode/Udacity/VirtualTourist/Project 
+  117  l
+  118  cd VirtualTourist/
+  119  l
+  120  git status
+  121  git status
+  122  git diff
+  123  git status
+  124  git commit -am "Adds data model for working with Core Data"
+  125  git status
+  126  cd /Users/toyb0_x/Dropbox/Notes/public 
+  127  git init
+  128  git status
+  129  git add About\ minimalism\ and\ de-cluttering.md 
+  130  git status
+  131  git commit -m "Adds a markdown file about minimalism and decluttering"
+  132  git status
+  133  git remote add origin https://github.com/rvoulon/rvoulon.github.io.git
+  134  git push -u origin master
+  135  git status
+  136  git add index.html 
+  137  git status
+  138  git commit -m "Adds the mdwiki file as index.html"
+  139  git status
+  140  git push -u origin master
+  141  pwd
+  142  git status
+  143  git commit -am "Updates declutter file with list of 15 routines"
+  144  git push -u origin master
+  145  git status
+  146  cd /Users/toyb0_x/Developer/Xcode/Udacity/MemeMe 
+  147  l
+  148  cd MemeMe2.0/
+  149  l
+  150  cd MemeMe
+  151  l
+  152  cd /Users/toyb0_x/Developer/Xcode/Udacity/MemeMe/MemeMe2.0/MemeMe/MemeMe 
+  153  l
+  154  cd..
+  155  cd ..
+  156  git status
+  157  ls
+  158  clr
+  159  clear
+  160  ls -l
+  161  man ls
+  162  l
+  163  cd MemeMe
+  164  l
+  165  cd ..
+  166  cd /Users/toyb0_x/Developer/Xcode/Clients/1.FeedMe 
+  167  git clone https://gitlab.com/feedme-app/feedme-ios.git
+  168  git branch
+  169  cd feedme-ios/
+  170  git branch
+  171  git checkout -b feature/menu
+  172  git branch
+  173  git sttus
+  174  git status
+  175  git remote
+  176  git status
+  177  git commit -am "Add Menu with table view, and present modally"
+  178  git status
+  179  git push
+  180  git push -u origin feature/menu
+  181  git status
+  182  git checkout dev
+  183  git fetch 
+  184  git checkout dev
+  185  git status
+  186  git checkout feature/menu
+  187  git merge dev
+  188  glog
+  189  gl
+  190  git status
+  191  git checkout dev
+  192  git pull
+  193  git status
+  194  git commmit -am "Add Logout menu item."
+  195  git commit -am "Add Logout menu item."
+  196  git push
+  197  brew install zsh
+  198  brew install zsh-completions
+  199  zsh
+  200  cd /Users/toyb0_x/Developer/Xcode/Clients/1.FeedMe/feedme-ios 
+  201  git status
+  202  git pull
+  203  git status
+  204  git stash
+  205  git checkout feature/cards
+  206  git stash apply
+  207  git mergetool
+  208  git config --global merge.tool opendiff
+  209  git mergetool
+  210  git st
+  211  git status
+  212  git reset --hard
+  213  git status
+  214  git status
+  215  open .
+  216  git status
+  217  open .
+  218  carthage build
+  219  brew install carthage
+  220  carthage build
+  221  brew list
+  222  which git
+  223  git --version
+  224  which /usr/local/git
+  225  ls /usr/local/git/
+  226  which git
+  227  brew install git
+  228  carthage build
+  229  which git
+  230  subl ~/.bash_profile 
+  231  source ~/.bash_profile 
+  232  which git
+  233  carthage build
+  234  cd /Users/toyb0_x/Developer/Xcode/Udacity/VirtualTourist/ios-nd-persistence-swift-3/PickYourPitch-NoPersistence 
+  235  l
+  236  git init
+  237  git status
+  238  git add .
+  239  git status
+  240  git commit -am "First commit"
+  241  git status
+  242  git status
+  243  git status
+  244  touch .gitignore
+  245  subl .gitignore 
+  246  git status
+  247  git add .gitignore 
+  248  git status
+  249  git commit -am "Allows user setting of a slider to be saved persistently with UserDefaults"
+  250  git status
+  251  git rm -r --cached .
+  252  git add .
+  253  git status
+  254  git commit -m "Removes files that are now in .gitignore and not to be tracked"
+  255  git status
+  256  git remote add origin https://github.com/rvoulon/UserDefaultsExample.git
+  257  git push -u origin master
+  258  git status
+  259  git status
+  260  git commit -am "Sets the default value of slider to float of 0.0 rather than 0 in checkIfFirstLaunch()"
+  261  git status
+  262  git status
+  263  git push
+  264  git status
+  265  git --v
+  266  git -v
+  267  git --version
+  268  cd /Users/toyb0_x/Developer/Xcode/Udacity/PitchPerfect2 
+  269  cd /Users/toyb0_x/Developer/Xcode/Clients/1.FeedMe/feedme-ios 
+  270  l
+  271  git status
+  272  git status
+  273  git status
+  274  git commit -am "Add menu icons to menu items."
+  275  git status
+  276  git status
+  277  git commit -am "Add Feed Me logo to menu."
+  278  git status
+  279  git push
+  280  git status
+  281  git branch
+  282  git checkout -b feature/categories
+  283  open .
+  284  git commit -am "Add button top-right of the Card View controller (that will point to collection view later)."
+  285  git status
+  286  git status
+  287  git commit -am "Add a navigation controller and a view controller with (empty) collection view."
+  288  git status
+  289  cd /Users/toyb0_x/Developer/Xcode/Clients/1.FeedMe/feedme-ios 
+  290  l
+  291  cd .git
+  292  l
+  293  cd ..
+  294  l
+  295  cd /Users/toyb0_x/Developer/Xcode/Udacity/VirtualTourist/test-apps/Toodidoodoo 
+  296  git status
+  297  git log
+  298  ruby --version
+  299  gem install bundler
+  300  gem install bundler
+  301  l
+  302  ls
+  303  l
+  304  cd /Users/toyb0_x/Developer/Python 
+  305  l
+  306  python3
+  307  ls -lAFh
+  308  cd /
+  309  cd ~
+  310  ls -lAFh
+  311  ls
+  312  l
+  313  brew install zsh
+  314  sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
+  315  which zsh
+  316  zsh --version
+  317  l
+  318  ls -G
+  319  ls -G
+  320  ls -lG
+  321  man man
+  322  ls -alG
+  323  pip3 install matplotlib
+  324  ls -lG
+  325  subl .bash_profile
+  326  l
+  327  ls -FGlAhp
+  328  man man
+  329  l
+  330  python
+  331  ls -G
+  332  l
+  333  ls -G
+  334  ls -G
+  335  ls -G
+  336  cd /usr/bin/python
+  337  which python
+  338  python --version
+  339  conda activate python3
+  340  which python
+  341  python --version
+  342  source activate python3
+  343  which python
+  344  python /Users/toyb0_x/Dropbox/Notes/dev/Python/LearnPython3TheHardWay/Exercises/ex4.py
+  345  conda env list
+  346  subl ~/.bash_profile
+  347  cd /Users/toyb0_x/Dropbox/Notes/dev/Python/Python\ Projects/1.\ Empire\ State\ Building 
+  348  touch README.md
+  349  subl README.md 
+  350  git status
+  351  cd ..
+  352  git status
+  353  git init
+  354  git status
+  355  git add .
+  356  git status
+  357  git commit -am "Initial commit"
+  358  git checkout -b pj-random-walk
+  359  python
+  360  python3
+  361  cd /Users/toyb0_x/Dropbox/Notes/dev/Python/LearnPython3TheHardWay/Exercises 
+  362  python3 ex1.py 
+  363  python3 ex1.py 
+  364  python --version
+  365  source activate python3
+  366  python --version
+  367  python ex4.py
+  368  which python3
+  369  which python
+  370  cd /Users/toyb0_x/Developer/Websites/LAB12.ca 
+  371  l
+  372  git init
+  373  git status
+  374  git add -A
+  375  git status
+  376  git commit -m "Initial commit - Status of website on launch" 
+  377  git status
+  378  subl index.html 
+  379  git status
+  380  git commit -am "Adds dates for info sessions, fixes copyright text."
+  381  git status
+  382  cd /Users/toyb0_x/Dropbox/Notes/dev/Python/LearnPython3TheHardWay/Exercises 
+  383  l
+  384  python ex10.py 
+  385  python ex10.py 
+  386  python ex10.py 
+  387  python ex10.py 
+  388  python ex10.py 
+  389  python ex10.py 
+  390  python ex11.py 
+  391  python --version
+  392  conda env list
+  393  source activate python3
+  394  conda env list
+  395  python --version
+  396  python ex11.py 
+  397  chsh
+  398  zsh
+  399  python
+  400  python3
+  401  cd /Users/toyb0_x/Developer/Python/projects/kudos 
+  402  l
+  403  source activate kudos
+  404  python channels.py 
+  405  python channels.py 
+  406  python channels.py 
+  407  python channels.py 
+  408  printenv
+  409  env
+  410  zsh
+  411  env
+  412  export SLACK_BOT_TOKEN='xoxb-209175747030-AnH7w5HrFp8c8U23P4SxSv64'
+  413  env
+  414  python kudos.py 
+  415  python --version
+  416  git --version
+  417  pwd
+  418  cd ..
+  419  cd /Users/toyb0_x/Developer/git/sunflower 
+  420  cd ..
+  421  md sun
+  422  mkdr sun
+  423  mkdir
+  424  mkdir sun
+  425  cd sunf
+  426  cd sunflower/
+  427  touch sunflower.md
+  428  l
+  429  ls -l
+  430  ls
+  431  ls -al
+  432  subl sunflower.md 
+  433  git init
+  434  git status
+  435  git add .
+  436  git status
+  437  git commit -m "Initial commit"
+  438  git status
+  439  git status
+  440  git add sunflower.md 
+  441  git status
+  442  git status
+  443  git add sunflower.md 
+  444  git status
+  445  git commit -m "Adds another blurb to the sunflower.md file"
+  446  git status
+  447  git diff
+  448  git diff 390fdfd
+  449  git diff
+  450  git remote add origin https://github.com/rvoulon/sunflower.git
+  451  git push -u origin master
+  452  git branch
+  453  git remote show origin
+  454  git branch test
+  455  git branch
+  456  git checkout test
+  457  git branch
+  458  git checkout -b testo
+  459  git branch
+  460  git checkout test
+  461  touch newfile.md
+  462  subl newfile.md 
+  463  git add newfile.md 
+  464  git status
+  465  git add sunflower.md 
+  466  git status
+  467  git commit -m "Adds a new file called newfile.md"
+  468  git status
+  469  git checkout master
+  470  l
+  471  ls -al
+  472  git diff master test
+  473  git status
+  474  touch ignorethis.config
+  475  git status
+  476  gi python,osx
+  477  gi python,osx > .gitignore
+  478  l
+  479  ls -al
+  480  subl ~/.bash_profile
+  481  gl
+  482  glog
+  483  git log
+  484  gl
+  485  glog
+  486  clr
+  487  clear
+  488  clear
+  489  history
+  490  history > commands.txt
+  491  echo /etc/gitconfig
+  492  echo /etc/.gitconfig
+  493  subl ~/.bash_profile
+  494  clear
+  495  glot
+  496  glog
+  497  clear
+  498  git --version
+  499  clear
+  500  vim ~/.gitconfig 
+  501  cd /Users/toyb0_x/Developer/git 
+  502  mkdir cranberry
+  503  l
+  504  ls -al
+  505  cd cranberry/
+  506  touch cranberry.md
+  507  subl cranberry.md 
+  508  git init
+  509  l
+  510  ls -alG
+  511  ls
+  512  ls -al
+  513  git init
+  514  git commit
+  515  git status
+  516  git add .
+  517  git status
+  518  git status
+  519  git add cranberry.md 
+  520  git status
+  521  git commit -m "Initial commit"
+  522  glog
+  523  git log
+  524  gl
+  525  glog
+  526  touch newfile.md
+  527  git status
+  528  git add cranberry.md 
+  529  git add newfile.md 
+  530  git status
+  531  git commit -m "Adds a new file and the instructions to the cranberry file."
+  532  git status
+  533  git branch
+  534  git branch new-feature
+  535  git branch
+  536  git checkout new-feature
+  537  git branch
+  538  git status
+  539  history > history.txt
